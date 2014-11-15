@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.horse.HorseDeleteDialogController">
+   <children>
+      <Label layoutX="35.0" layoutY="20.0" text="Are you sure you want to delete this horse?" />
+      <Button layoutX="212.0" layoutY="239.0" minWidth="55.0" mnemonicParsing="false" onAction="#handleOk" text="OK" />
+      <Button layoutX="149.0" layoutY="239.0" minWidth="55.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+      <Label fx:id="horseLabel" layoutX="75.0" layoutY="48.0" text="Label" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.booking.BookingConfirmationDialogController">
+   <children>
+      <Label layoutX="18.0" layoutY="14.0" text="Booking Confirmation" />
+      <TextArea fx:id="bookingConfirmation" layoutX="18.0" layoutY="41.0" prefHeight="481.0" prefWidth="764.0" />
+      <Button layoutX="373.0" layoutY="543.0" mnemonicParsing="false" onAction="#handleOk" prefWidth="55.0" text="OK" />
+   </children>
+</AnchorPane>
