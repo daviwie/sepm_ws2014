@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="300.0" maxWidth="400.0" minHeight="300.0" minWidth="400.0" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.booking.BookingEditDialogController">
+   <children>
+      <VBox layoutX="137.0" layoutY="20.0" spacing="10.0">
+         <children>
+            <DatePicker fx:id="datePickerField" layoutX="74.0" layoutY="67.0" promptText="New Date" />
+            <TextField fx:id="startTimeField" layoutX="74.0" layoutY="149.0" promptText="New start time (hh:mm:ss)" />
+            <TextField fx:id="endTimeField" layoutX="74.0" layoutY="194.0" promptText="New end time (hh:mm:ss)" />
+            <ComboBox fx:id="horseBox" layoutX="74.0" layoutY="313.0" prefWidth="150.0" promptText="New horse" />
+         </children>
+      </VBox>
+      <VBox layoutX="89.0" layoutY="21.0" spacing="20.0">
+         <children>
+            <Label layoutX="74.0" layoutY="30.0" text="Date" />
+            <Label layoutX="74.0" layoutY="112.0" text="From" />
+            <Label layoutX="74.0" layoutY="239.0" text="To" />
+            <Label layoutX="74.0" layoutY="276.0" text="Horse" />
+         </children>
+      </VBox>
+      <HBox layoutX="246.0" layoutY="255.0" spacing="20.0">
+         <children>
+            <Button layoutX="261.0" layoutY="245.0" minWidth="55.0" mnemonicParsing="false" onAction="#handleOk" text="OK" />
+            <Button layoutX="322.0" layoutY="245.0" minWidth="55.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
